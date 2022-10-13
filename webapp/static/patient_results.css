@@ -1,0 +1,18 @@
+*{
+    background-image: url({{url_for('static',filename='img.jpg')}});
+    
+
+}
+body{
+    background-image: url(/webapp/static/img.jpg);
+    background-color: rgb(22, 104, 66);
+    text-align: center;
+}
+.res_table{
+    align-items: center;
+    color: rgb(3, 15, 26);
+}
+#h1{
+    text-align: center;
+    color: rgb(24, 3, 22);
+}

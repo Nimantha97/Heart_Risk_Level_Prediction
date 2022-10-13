@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--<link rel="stylesheet" href="{{url_for('static',filename='patient_results.css')}}">  --> 
+    <title>Document</title>
+</head>
+<body>
+    <table class="res_table" align="center">
+        <tr id="r1">
+            <td >
+                <h1 id="h1" style="align-items: center;">Results Sheet</h1>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            Name
+            </td>
+            <td>
+            {{results.name}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+            Risk Level
+            </td>
+            <td>
+            {{results.risk}}% 
+            </td>
+        </tr>
+    </table>
+   
+</body>
+</html>

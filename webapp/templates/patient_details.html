@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='patient_details.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:5000/getresults" method="POST">
+
+        <table border="0" align="center">
+    
+            <tr>
+                <td><label for=""><h1>Enter Details</h1></label></td>
+                
+            </tr>
+            <tr>
+                <td><label for="">Name</label></td>
+                <td><input type="text" name="name" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Gender(0-male 1-female)</label></td>
+                <td><input type="text" name="gender" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Age</label></td>
+                <td><input type="text" name="age" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">TC(mg/dL)</label></td>
+                <td><input type="text" name="tc" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">HDL(mg/dL)</label></td>
+                <td><input type="text" name="hdl" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Smoke(1-yes 0-no)</label></td>
+                <td><input type="text" name="smoke" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Blood Presure Medicaton(0-not taking 1-taking)</label></td>
+                <td><input type="text" name="bpm" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Diabetics</label></td>
+                <td><input type="text" name="diab" id=""></td>
+            </tr>
+            <tr>
+                <td><button type="submit" value="Submit Details">SUBMIT</button></td>
+            </tr>
+        </table>
+
+    </form>
+   
+</body>
+</html>
